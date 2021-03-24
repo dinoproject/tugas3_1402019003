@@ -20,7 +20,6 @@ function hasilSilinder() {
 	var jari2_silinder1 = jari2_silinder.replace(".", "");
 	console.log(jari2_silinder);
 	var reg = new RegExp('^\\d+$');
-	// ^[1-9]\d{0,2}(\.?\d{3})*(,\d+)?$
 	if(tinggi_silinder == "" || jari2_silinder == "") {
 		alert("Mohon masukkan input silinder terlebih dahulu");
 		return;
